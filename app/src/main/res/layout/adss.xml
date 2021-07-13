@@ -1,0 +1,11 @@
+<RelativeLayout xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.gms.ads.AdView android:id="@+id/adview"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        ads:adUnitId="ca-app-pub-2807276797001498/7675772638"
+        ads:adSize="SMART_BANNER"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
